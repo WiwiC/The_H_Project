@@ -1,0 +1,27 @@
+html {
+    display: block;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+}
+
+h1, h2, h3 {
+    line-height:1.2em;
+}
+
+#wrapper {
+    margin:0 auto;
+    width:57%;
+}
+
+blocquote {
+    font-style: normal;
+}
+
+span {
+    font-family: "Georgia", serif;
+    text-transform: uppercase;
+}

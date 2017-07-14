@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1, user-scalable=yes">
+    <meta name="keywords" content="Pomodoro">
+    <meta name="description" content="site intégration, test,">
+    <title>Pomodoro Clock</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div>
+        <!-- Bloc central avec titre -->
+        <h1>Pomodoro Clock</h1>
+
+        <div id="central_block">
+            <!-- Bloc central sans titre -->
+            <div id="top_block">
+                <!-- top Bloc-->
+                <div class="block-menu1">
+                    <!-- top Left Bloc-->
+                    <div class="title">
+                        <table>
+                            <tr>
+                                <th> Session </th>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <table class="icon">
+                        <tr>
+                            <th><i class="fa fa-chevron-down fa-1x"></th>
+                            <th> 30 </th>
+                            <th><i class="fa fa-chevron-up fa-1x"> </th>
+                        </tr>
+                    </table>
+                </div> <!-- top Left Bloc-->
+              
+                    <div class="block-menu2"><!--toprightBloc-->
+                        <div class="title">
+                            <table>
+                                <tr>
+                                    <th> Break </th>
+                                </tr>
+                            </table>
+                        </div>
+                
+                    <table class="icon">
+                        <tr>
+                            <th><i class="fa fa-chevron-down fa-1x"> </th>
+                            <th>5</th>
+                            <th><i class="fa fa-chevron-up fa-1x"></th>
+                        </tr>
+                  </table>
+
+                    </div> <!-- top right Bloc-->
+            </div> <!-- top Bloc--> 
+            
+            <div id="middle_block">
+                <table id="table_clock">
+                    <tr><th><span>00</span><span>:</span><span>00</span></th></tr>
+                </table>
+            </div>
+            
+            <div id="bottom_block">
+                <table>
+                    <tr>
+                        <th><i class="fa fa-play fa-3x"></th>
+                        <th><i class="fa fa-pause fa-3x"></th>
+                        <th><i class="fa fa-stop fa-3x"> </th>
+                        <th><i class="fa fa-refresh fa-3x"> </th>
+                    </tr>
+                </table>
+            </div>
+            
+          </div> <!-- Fin du bloc central sans titre -->
+      </div> <!-- Fin du bloc central avec titre-->
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
